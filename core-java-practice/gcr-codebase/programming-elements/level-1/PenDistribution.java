@@ -1,4 +1,4 @@
-public class Pen_distribution {
+public class PenDistribution {
     public static void main(String args[]){
         int pen=14,mens=3;
         int div=pen/mens;

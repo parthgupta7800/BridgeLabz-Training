@@ -1,5 +1,5 @@
 import java.util.*;
-public class volume {
+public class Volume {
     public static void main(String args[]){
         Scanner ob=new Scanner(System.in);
         double h=ob.nextDouble();

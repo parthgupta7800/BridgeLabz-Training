@@ -1,4 +1,4 @@
-public class Average_percent {
+public class AveragPercent {
     public static void main(String args[]){
         int math=94,phy=95,che=96;
         double percent=(math/300)*100;

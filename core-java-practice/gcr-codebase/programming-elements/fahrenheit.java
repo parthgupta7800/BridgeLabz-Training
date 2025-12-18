@@ -1,5 +1,5 @@
 import java.util.*;
-class fahrenheit
+class Fahrenheit
 {
     public static void main(String args[]){
         Scanner ob=new Scanner(System.in);
