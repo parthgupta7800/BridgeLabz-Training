@@ -1,6 +1,5 @@
-package javaproject;
 import java.util.*;
-class factorial {
+class Factorial {
     public static void main(String args[]) {
         Scanner ob = new Scanner(System.in);
         int n, f = 1;

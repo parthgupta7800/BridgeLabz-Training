@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class smallestevenmultiple {
+public class SmallestEvenMultiple {
 	public static void main(String args[])
 	{
 		Scanner ob=new Scanner(System.in);
