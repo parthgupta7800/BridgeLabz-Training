@@ -1,8 +1,5 @@
-
-
-public class GoodPair {
-
-	public static void main(String[] args) {
+public class GoodPairCount {
+    public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int nums[]= {1,2,3,1,2,5,6,6};
 		int count=0;
@@ -16,5 +13,4 @@ public class GoodPair {
         }
         System.out.println(count);
 	}
-
 }

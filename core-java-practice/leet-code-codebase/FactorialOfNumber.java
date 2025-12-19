@@ -1,5 +1,5 @@
 import java.util.*;
-class Factorial {
+public class FactorialOfNumber {
     public static void main(String args[]) {
         Scanner ob = new Scanner(System.in);
         int n, f = 1;

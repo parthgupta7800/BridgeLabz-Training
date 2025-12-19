@@ -1,9 +1,6 @@
-
-
-import java.util.Scanner;
-
-public class SmallestEvenMultiple {
-	public static void main(String args[])
+import java.util.*;
+public class FindSmallestEvenMultiple {
+    public static void main(String args[])
 	{
 		Scanner ob=new Scanner(System.in);
 		int n=ob.nextInt();
@@ -11,5 +8,4 @@ public class SmallestEvenMultiple {
 		System.out.println(n*2);
         else System.out.println(n);
 	}
-
 }

@@ -1,8 +1,6 @@
-
-
 import java.util.*;
-public class Palindrome{
-	public static void main(String args[]){
+public class CheckPalindrome {
+    public static void main(String args[]){
 		Scanner ob=new Scanner(System.in);
 		int n=ob.nextInt();
 		if(check(n))
