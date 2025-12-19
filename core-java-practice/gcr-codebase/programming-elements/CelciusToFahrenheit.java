@@ -1,6 +1,5 @@
 import java.util.*;
-class Fahrenheit
-{
+public class CelciusToFahrenheit {
     public static void main(String args[]){
         Scanner ob=new Scanner(System.in);
         int cel=ob.nextInt();

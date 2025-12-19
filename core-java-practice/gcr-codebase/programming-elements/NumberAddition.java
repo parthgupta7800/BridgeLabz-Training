@@ -1,9 +1,10 @@
 import java.util.*;
-public class Kmtomiles {
+public class NumberAddition {
     public static void main(String args[])
     {
         Scanner ob=new Scanner(System.in);
-        double km=ob.nextInt();
-        System.out.println(km*0.621371);
+        int a=ob.nextInt();
+        int b=ob.nextInt();
+        System.out.println(a+b);
     }
 }

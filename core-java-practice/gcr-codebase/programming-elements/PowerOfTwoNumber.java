@@ -1,5 +1,5 @@
 import java.util.*;
-public class Power {
+public class PowerOfTwoNumber {
     public static void main(String args[]){
         Scanner ob=new Scanner(System.in);
         int a =ob.nextInt();

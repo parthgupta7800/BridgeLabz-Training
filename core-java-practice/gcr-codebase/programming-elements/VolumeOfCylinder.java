@@ -1,5 +1,5 @@
 import java.util.*;
-public class Volume {
+public class VolumeOfCylinder {
     public static void main(String args[]){
         Scanner ob=new Scanner(System.in);
         double h=ob.nextDouble();
