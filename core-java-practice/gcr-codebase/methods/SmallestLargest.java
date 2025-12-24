@@ -7,25 +7,26 @@ public class SmallestLargest {
         int num1=ob.nextInt();
         int num2=ob.nextInt();
         int num3=ob.nextInt();
-        obj.find(num1,num2,num3);
+        System.out.println(obj.findSmallestAndLargest(num1,num2,num3));
     }
-    void find(int num1,int num2,int num3){
-        if(num1>num2 && num1>num3)
+    public static int[] findSmallestAndLargest(int num1,int num2,int num3){
+        int largest=0;
+        int smallest=0;
+        if(num1>num2)
         {
-            System.out.println("Is the first num the largest? Yes");
-            System.out.println("Is the second num the largest? No");
-            System.out.println("Is the third num the largest? No");
+            if(num1>num3)
+                largest=num1;
+            else largest=num3;
         }
-        if(num2>num1 && num2>num3)
+        else largest=num2;
+        if(num1<num2)
         {
-            System.out.println("Is the first num the largest? No");
-            System.out.println("Is the second num the largest? Yes");
-            System.out.println("Is the third num the largest? No");
+            if(num1<num3)
+                smallest=num1;
+            else smallest=num3;
         }
-        else{
-            System.out.println("Is the first num the largest? No");
-            System.out.println("Is the second num the largest? No");
-            System.out.println("Is the third num the largest? Yes");
-        }
+        else smallest=num2;
+        int arr[]={largest,smallest};
+        return arr;
     }
 }
