@@ -27,8 +27,8 @@ public class MetroSmartCard {
                     System.out.println("Insufficient balance for this trip.");
                 } else {
                     card = card - amount;
-                    System.out.println("Fare deducted: ₹" + amount);
-                    System.out.println("Remaining balance: ₹" + card);
+                    System.out.println("Fare deducted: " + amount);
+                    System.out.println("Remaining balance: " + card);
                 }
             }
         }
