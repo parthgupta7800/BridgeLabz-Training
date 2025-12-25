@@ -1,5 +1,5 @@
 import java.util.*;
-class NumberChecker {
+class NumberCheckerStrong {
     public static int sumOfProperDivisors(int number) {
         int sum = 0;
         for (int i = 1; i <= number / 2; i++) {
