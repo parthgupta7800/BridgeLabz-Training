@@ -128,8 +128,10 @@ public class CabBooking{
             ob.nextLine();
             if(num==1){
                 try{
+                    Driver driver=assign();
                     System.out.println("Enter the user name");
                     String name=ob.nextLine();
+                    System.out.println("Enter User ID");
                     int id=ob.nextInt();
                     ob.nextLine();
                     System.out.println("Enter the source point");
@@ -142,8 +144,6 @@ public class CabBooking{
                     System.out.println("Enter vehicle type(bike/sedan/suv)");
                     String vehicleType=ob.nextLine();
                     users.add(new Users(name,id));
-                    System.out.println("Enter the user Id");
-                    Driver driver=assign();
                     FareCalculator fareCalc;
                     if(isPeakTime())
                         fareCalc=new PeakFare();
