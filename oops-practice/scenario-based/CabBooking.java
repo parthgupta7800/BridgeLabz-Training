@@ -1,4 +1,5 @@
 import java.util.*;
+import java.time.LocalTime;
 class NoDriverAvailableException extends Exception{
     NoDriverAvailableException(String message){
         super(message);
@@ -97,6 +98,14 @@ public class CabBooking{
         }
         throw new NoDriverAvailableException("No driver available");
     }
+    static boolean isPeakTime(){
+        LocalTime now=LocalTime.now();
+        LocalTime mStart=LocalTime.of(7,0);
+        LocalTime mEnd=LocalTime.of(9,0);
+        LocalTime eStart=LocalTime.of(17,0);
+        LocalTime eEnd=LocalTime.of(20,0);
+        return (now.isAfter(mStart)&&now.isBefore(mEnd)) ||(now.isAfter(eStart)&&now.isBefore(eEnd));
+    }
     public static void showRideHistory(){
         if(rides.size()==0){
             System.out.println("No ride history available");
@@ -110,8 +119,6 @@ public class CabBooking{
         drivers.add(new Driver("Amit",123,true));
         drivers.add(new Driver("Anmol",453,true));
         drivers.add(new Driver("Vaibhav",963,true));
-        FareCalculator normalFare=new NormalFare();
-        FareCalculator peakFare=new PeakFare();
         boolean loop=true;
         while(loop){
             System.out.println("Enter 1 to book ride");
@@ -134,16 +141,15 @@ public class CabBooking{
                 ob.nextLine();
                 System.out.println("Enter vehicle type(bike/sedan/suv)");
                 String vehicleType=ob.nextLine();
-                System.out.println("Enter pricing type(normal/peak)");
-                String pricing=ob.nextLine();
                 users.add(new Users(name,id));
                 try{
                     Driver driver=assign();
-                    double fare;
-                    if(pricing.equalsIgnoreCase("peak"))
-                        fare=peakFare.fareCalculator(vehicleType,distance);
+                    FareCalculator fareCalc;
+                    if(isPeakTime())
+                        fareCalc=new PeakFare();
                     else
-                        fare=normalFare.fareCalculator(vehicleType,distance);
+                        fareCalc=new NormalFare();
+                    double fare=fareCalc.fareCalculator(vehicleType,distance);
                     Rides ride=new Rides(name,id,driver.name,driver.id,source,destination,distance,vehicleType,fare);
                     rides.add(ride);
                     ride.displayRide();
@@ -156,5 +162,6 @@ public class CabBooking{
                 loop=false;
             }
         }
+        System.out.println("Thanks for choosing our services !!");
     }
 }
