@@ -127,22 +127,22 @@ public class CabBooking{
             int num=ob.nextInt();
             ob.nextLine();
             if(num==1){
-                System.out.println("Enter the user name");
-                String name=ob.nextLine();
-                System.out.println("Enter the user Id");
-                int id=ob.nextInt();
-                ob.nextLine();
-                System.out.println("Enter the source point");
-                String source=ob.nextLine();
-                System.out.println("Enter the destination");
-                String destination=ob.nextLine();
-                System.out.println("Enter the distance");
-                double distance=ob.nextDouble();
-                ob.nextLine();
-                System.out.println("Enter vehicle type(bike/sedan/suv)");
-                String vehicleType=ob.nextLine();
-                users.add(new Users(name,id));
                 try{
+                    System.out.println("Enter the user name");
+                    String name=ob.nextLine();
+                    int id=ob.nextInt();
+                    ob.nextLine();
+                    System.out.println("Enter the source point");
+                    String source=ob.nextLine();
+                    System.out.println("Enter the destination");
+                    String destination=ob.nextLine();
+                    System.out.println("Enter the distance");
+                    double distance=ob.nextDouble();
+                    ob.nextLine();
+                    System.out.println("Enter vehicle type(bike/sedan/suv)");
+                    String vehicleType=ob.nextLine();
+                    users.add(new Users(name,id));
+                    System.out.println("Enter the user Id");
                     Driver driver=assign();
                     FareCalculator fareCalc;
                     if(isPeakTime())
