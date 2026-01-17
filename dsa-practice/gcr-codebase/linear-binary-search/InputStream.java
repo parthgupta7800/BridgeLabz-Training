@@ -8,7 +8,7 @@ public class InputStream {
             int ch;
             line = new BufferedReader(isr);
             while((ch=line.read())!=-1){
-                System.out.println(ch);
+                System.out.println((char)ch);
             }
         } catch (IOException e) {
             System.out.println("An error occurred: " + e.getMessage());
