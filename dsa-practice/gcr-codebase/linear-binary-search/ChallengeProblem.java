@@ -82,21 +82,21 @@ public class ChallengeProblem {
         }
     }
         public static void fileRead(){
-            BufferedReader line = null;
+            BufferedReader reader = null;
         try {
-            FileInputStream file = new FileInputStream("sample.txt");
-            InputStreamReader isr=new InputStreamReader(file,"UTF-8");
-            int ch;
-            line = new BufferedReader(isr);
-            while((ch=line.read())!=-1){
-                System.out.println(ch);
+            FileReader read=new FileReader("sample.txt");
+            reader = new BufferedReader(read);
+            String line="";
+            while ((line = reader.readLine()) != null) {
+                System.out.println(line);
             }
-        } catch (IOException e) {
-            System.out.println("An error occurred: " + e.getMessage());
+        }
+        catch(IOException e){
+            System.out.println("An error occurred while reading the file: " + e.getMessage());
         } finally {
             try {
-                if (line != null) {
-                    line.close();
+                if (reader != null) {
+                    reader.close();
                 }
             } catch (IOException e) {
                 System.out.println("An error occurred while closing the reader: " + e.getMessage());
