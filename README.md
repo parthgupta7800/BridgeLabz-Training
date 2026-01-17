@@ -494,7 +494,7 @@ BridgeLabz-Training
 
 ### ✅ 15 January  
 *Studied String Handling, File I/O, and Searching Techniques*  
-- Learned efficient string manipulation and basic input handling  
+- Learned and Implemented efficient string manipulation and basic input handling  
 - Understood searching algorithms for data lookup  
 
 *Topics Covered:*  
@@ -505,3 +505,20 @@ BridgeLabz-Training
 - `Linear Search`  
 - `Binary Search` 
 
+📂 Folder:dsa-practice/gcr-codebase/linear-binary-search
+
+---
+
+### ✅ 16 January  
+*Studied Runtime Analysis and Code Optimization Concepts*  
+- Learned how to evaluate algorithm performance and resource usage  
+
+*Topics Covered:*  
+- Runtime analysis  
+- Big-O notation  
+- Time complexity  
+- Space complexity  
+- Best, worst, and average case analysis  
+- Practical guidelines for optimizing Java code  
+
+---
