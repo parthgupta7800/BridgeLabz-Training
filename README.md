@@ -86,7 +86,9 @@ BridgeLabz-Training
 
 ### 📌 DSA – Scenario-Based Problems
 - Traffic Manager – Roundabout Vehicle Flow 
-
+- BookShelf – Library Organiz Story: In a library system, books are arranged based on genre and author. A HashMap maps genre → list of books (LinkedList). Each list is dynamically updated when books are borrowed or returned.
+- BrowserBuddy – Tab History Manager (Doubly Linked List + Stack)
+  
 ---
 
 
@@ -522,3 +524,14 @@ BridgeLabz-Training
 - Practical guidelines for optimizing Java code  
 
 ---
+
+### ✅ 17 January 
+*Practiced DSA and OOP scenario-based problems using Core Java* 
+- Solved real-world problems using data structures, OOP principles, and Core Java  
+
+*Scenario-Based Problems:*  
+- BrowserBuddy – Tab History Manager  
+- TrafficManager – Roundabout Vehicle Flow  
+- BookShelf – Library Organizer  
+
+📂 Folder:dsa-practice/scenario-based
