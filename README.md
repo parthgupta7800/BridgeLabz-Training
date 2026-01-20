@@ -535,3 +535,18 @@ BridgeLabz-Training
 - BookShelf – Library Organizer  
 
 📂 Folder:dsa-practice/scenario-based
+
+---
+
+### ✅ 19 January  
+*Submitted Algorithm Runtime Analysis & Big-O Notation*  
+- Reviewed best practices for analyzing algorithm performance  
+- Focused on optimizing time and space complexity  
+
+*Topics Covered:*  
+- Algorithm runtime analysis  
+- Big-O notation  
+- General algorithm best practices  
+- Time and space complexity optimization  
+
+📂 Folder:dsa-practice/gcr-codebase/runtime-analysis
