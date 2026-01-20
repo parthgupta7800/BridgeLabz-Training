@@ -1,33 +1,15 @@
 package dao;
-import model.Contact;
 import java.util.*;
-
-// Use Case 5,6,7,8,9,10: Data Storage Layer
+import model.Contact;
+// Use Case 5: Store and manage multiple contacts
 public class AddressBookDAO {
-    private Map<String,List<Contact>> addressBooks=new HashMap<>();
-    private Map<String,List<Contact>> cityMap=new HashMap<>();
-    private Map<String,List<Contact>> stateMap=new HashMap<>();
-
-    // Use Case 6: Add new address book
-    public void addAddressBook(String name){
-        addressBooks.putIfAbsent(name,new ArrayList<>());
-    }
-
-    // Use Case 7: Add contact with duplicate check
-    public boolean addContact(String bookName,Contact contact){
-        List<Contact> contacts=addressBooks.get(bookName);
-        if(contacts.contains(contact)){
-            return false;
-        }
+    private List<Contact> contacts=new ArrayList<>();
+    // Use Case 2,5: Add contact
+    public void addContact(Contact contact){
         contacts.add(contact);
-        cityMap.computeIfAbsent(contact.getCity(),k->new ArrayList<>()).add(contact);
-        stateMap.computeIfAbsent(contact.getState(),k->new ArrayList<>()).add(contact);
-        return true;
     }
-
     // Use Case 3: Edit contact
-    public boolean editContact(String bookName,String firstName,Contact updatedContact){
-        List<Contact> contacts=addressBooks.get(bookName);
+    public boolean editContact(String firstName,Contact updatedContact){
         for(int i=0;i<contacts.size();i++){
             if(contacts.get(i).getFirstName().equalsIgnoreCase(firstName)){
                 contacts.set(i,updatedContact);
@@ -36,10 +18,8 @@ public class AddressBookDAO {
         }
         return false;
     }
-
     // Use Case 4: Delete contact
-    public boolean deleteContact(String bookName,String firstName){
-        List<Contact> contacts=addressBooks.get(bookName);
+    public boolean deleteContact(String firstName){
         Iterator<Contact> iterator=contacts.iterator();
         while(iterator.hasNext()){
             Contact contact=iterator.next();
@@ -50,28 +30,8 @@ public class AddressBookDAO {
         }
         return false;
     }
-
-    // Use Case 8: Search by city
-    public List<Contact> searchByCity(String city){
-        return cityMap.getOrDefault(city,new ArrayList<>());
-    }
-
-    // Use Case 8: Search by state
-    public List<Contact> searchByState(String state){
-        return stateMap.getOrDefault(state,new ArrayList<>());
-    }
-
-    // Use Case 10: Count by city
-    public int countByCity(String city){
-        return cityMap.getOrDefault(city,new ArrayList<>()).size();
-    }
-
-    // Use Case 10: Count by state
-    public int countByState(String state){
-        return stateMap.getOrDefault(state,new ArrayList<>()).size();
-    }
-
-    public Set<String> getAllBooks(){
-        return addressBooks.keySet();
+    // Use Case 5: Get all contacts
+    public List<Contact> getAllContacts(){
+        return contacts;
     }
 }

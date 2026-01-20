@@ -1,7 +1,4 @@
 package model;
-import java.util.*;
-
-// Use Case 1: Contact entity with all required fields
 public class Contact {
     private String firstName;
     private String lastName;
@@ -24,11 +21,8 @@ public class Contact {
     public String getFirstName(){
         return firstName;
     }
-    public String getCity(){
-        return city;
-    }
-    public String getState(){
-        return state;
+    public String getLastName(){
+        return lastName;
     }
     public void setAddress(String address){
         this.address=address;
@@ -47,19 +41,6 @@ public class Contact {
     }
     public void setEmail(String email){
         this.email=email;
-    }
-
-    // Use Case 7: Override equals for duplicate check by name
-    @Override
-    public boolean equals(Object obj){
-        if(this==obj)return true;
-        if(obj==null||getClass()!=obj.getClass())return false;
-        Contact contact=(Contact)obj;
-        return firstName.equalsIgnoreCase(contact.firstName)&&lastName.equalsIgnoreCase(contact.lastName);
-    }
-    @Override
-    public int hashCode(){
-        return Objects.hash(firstName.toLowerCase(),lastName.toLowerCase());
     }
     @Override
     public String toString(){
