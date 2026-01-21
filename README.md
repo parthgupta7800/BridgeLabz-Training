@@ -88,6 +88,9 @@ BridgeLabz-Training
 - Traffic Manager – Roundabout Vehicle Flow 
 - BookShelf – Library Organiz Story: In a library system, books are arranged based on genre and author. A HashMap maps genre → list of books (LinkedList). Each list is dynamically updated when books are borrowed or returned.
 - BrowserBuddy – Tab History Manager (Doubly Linked List + Stack)
+- ParcelTracker – Delivery Chain Management  
+- ExamProctor – Online Exam Review System  
+- CinemaTime – Movie Schedule Manager 
   
 ---
 
@@ -550,3 +553,18 @@ BridgeLabz-Training
 - Time and space complexity optimization  
 
 📂 Folder:dsa-practice/gcr-codebase/runtime-analysis
+
+---
+
+### ✅ 20 January  
+*Worked on DSA and OOP Scenario-Based Problems*  
+- Practiced real-world problem solving using linked lists, stacks, maps, lists, and exception handling  
+
+*Scenario-Based Problems:*  
+- ParcelTracker – Delivery Chain Management  
+- ExamProctor – Online Exam Review System  
+- CinemaTime – Movie Schedule Manager  
+
+📂 Folder:dsa-practice/scenario-based
+
+---
