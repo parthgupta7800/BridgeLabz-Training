@@ -91,8 +91,11 @@ BridgeLabz-Training
 - ParcelTracker – Delivery Chain Management  
 - ExamProctor – Online Exam Review System  
 - CinemaTime – Movie Schedule Manager 
+- EduResults – Rank Sheet Generator
+- SmartCheckout – Supermarket Billing Queue
   
 ---
+
 
 
 ## 📅 Daily Progress Overview
