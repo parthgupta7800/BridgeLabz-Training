@@ -568,3 +568,15 @@ BridgeLabz-Training
 📂 Folder:dsa-practice/scenario-based
 
 ---
+
+### ✅ 21 January  
+*Studied Java Generics Best Practices and Scenario-Based Applications*  
+- Learned how to use generics for type safety, reusability, and flexible design  
+
+*Topics Covered:*  
+- Generic classes and methods  
+- Bounded type parameters  
+- Wildcards (`? extends`, `? super`)  
+- Type safety and type erasure considerations
+
+📂 Folder:collections-practice/gcr-codebase/generics
