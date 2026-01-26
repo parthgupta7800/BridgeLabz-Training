@@ -583,3 +583,18 @@ BridgeLabz-Training
 - Type safety and type erasure considerations
 
 📂 Folder:collections-practice/gcr-codebase/generics
+
+---
+
+### ✅ 22 January  
+*Studied Java Exception Handling Concepts*  
+- Learned how to handle runtime and compile-time errors using built-in and custom exceptions  
+
+*Topics Covered:*  
+- Types of exceptions (checked and unchecked)  
+- `try-catch` and `try-catch-finally` blocks  
+- `try-with-resources` statement  
+- `throw` and `throws`  
+- Creating custom exceptions  
+- Extending `Exception` class  
+- Defining constructors for exceptions  
