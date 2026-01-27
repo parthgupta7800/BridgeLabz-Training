@@ -1,7 +1,8 @@
 package presentation;
-import service.AddressBookService;
-import model.Contact;
 import java.util.Scanner;
+import model.Contact;
+import service.AddressBookService;
+
 // Start: Display Welcome Message
 public class AddressBookMain {
     public static void main(String[] args){
@@ -9,16 +10,31 @@ public class AddressBookMain {
         AddressBookService service=new AddressBookService();
         System.out.println("Welcome to Address Book Program");
         while(true){
-            System.out.println("\n1.Add Contact");
-            System.out.println("2.Edit Contact");
-            System.out.println("3.Delete Contact");
-            System.out.println("4.View All Contacts");
-            System.out.println("5.Exit");
+            System.out.println("1.Create Address Book");
+            System.out.println("2.Add Contact");
+            System.out.println("3.Edit Contact");
+            System.out.println("4.Delete Contact");
+            System.out.println("5.Search By City");
+            System.out.println("6.Search By State");
+            System.out.println("7.Count By City");
+            System.out.println("8.Count By State");
+            System.out.println("9.View Address Books");
+            System.out.println("10.Exit");
             int choice=scanner.nextInt();
             scanner.nextLine();
             switch(choice){
                 case 1:
-                    // Use Case 2: Add new contact
+                    // Use Case 6
+                    System.out.print("Enter Address Book Name:");
+                    String bookName=scanner.nextLine();
+                    service.createAddressBook(bookName);
+                    System.out.println("Address Book Created");
+                    break;
+
+                case 2:
+                    // Use Case 2,5,7
+                    System.out.print("Enter Address Book Name:");
+                    String addBook=scanner.nextLine();
                     System.out.print("First Name:");
                     String first=scanner.nextLine();
                     System.out.print("Last Name:");
@@ -36,12 +52,18 @@ public class AddressBookMain {
                     System.out.print("Email:");
                     String email=scanner.nextLine();
                     Contact contact=new Contact(first,last,address,city,state,zip,phone,email);
-                    service.addContact(contact);
-                    System.out.println("Contact Added Successfully");
+                    if(service.addContact(addBook,contact)){
+                        System.out.println("Contact Added Successfully");
+                    }else{
+                        System.out.println("Duplicate Contact Or Address Book Not Found");
+                    }
                     break;
-                case 2:
-                    // Use Case 3: Edit existing contact
-                    System.out.print("Enter First Name to Edit:");
+
+                case 3:
+                    // Use Case 3
+                    System.out.print("Enter Address Book Name:");
+                    String editBook=scanner.nextLine();
+                    System.out.print("Enter First Name To Edit:");
                     String editName=scanner.nextLine();
                     System.out.print("New Last Name:");
                     String newLast=scanner.nextLine();
@@ -58,29 +80,69 @@ public class AddressBookMain {
                     System.out.print("New Email:");
                     String newEmail=scanner.nextLine();
                     Contact updated=new Contact(editName,newLast,newAddress,newCity,newState,newZip,newPhone,newEmail);
-                    if(service.editContact(editName,updated)){
-                        System.out.println("Contact Updated Successfully");
+                    if(service.editContact(editBook,editName,updated)){
+                        System.out.println("Contact Updated");
                     }else{
                         System.out.println("Contact Not Found");
                     }
                     break;
-                case 3:
-                    // Use Case 4: Delete contact
-                    System.out.print("Enter First Name to Delete:");
-                    String deleteName=scanner.nextLine();
-                    if(service.deleteContact(deleteName)){
-                        System.out.println("Contact Deleted Successfully");
-                    }else{
-                        System.out.println("Contact Not Found");
-                    }
-                    break;
+
                 case 4:
-                    // Use Case 5: View all contacts
-                    service.getAllContacts().forEach(System.out::println);
+                    // Use Case 4
+                    System.out.print("Enter Address Book Name:");
+                    String deleteBook=scanner.nextLine();
+                    System.out.print("Enter First Name To Delete:");
+                    String deleteName=scanner.nextLine();
+                    if(service.deleteContact(deleteBook,deleteName)){
+                        System.out.println("Contact Deleted");
+                    }else{
+                        System.out.println("Contact Not Found");
+                    }
                     break;
+
                 case 5:
+                    // Use Case 8
+                    System.out.print("Enter City:");
+                    String searchCity=scanner.nextLine();
+                    for(Contact c:service.searchByCity(searchCity)){
+                        System.out.println(c);
+                    }
+                    break;
+
+                case 6:
+                    // Use Case 8
+                    System.out.print("Enter State:");
+                    String searchState=scanner.nextLine();
+                    for(Contact c:service.searchByState(searchState)){
+                        System.out.println(c);
+                    }
+                    break;
+
+                case 7:
+                    // Use Case 10
+                    System.out.print("Enter City:");
+                    String countCity=scanner.nextLine();
+                    System.out.println("Total Contacts:"+service.countByCity(countCity));
+                    break;
+
+                case 8:
+                    // Use Case 10
+                    System.out.print("Enter State:");
+                    String countState=scanner.nextLine();
+                    System.out.println("Total Contacts:"+service.countByState(countState));
+                    break;
+
+                case 9:
+                    System.out.println("Available Address Books:");
+                    for(String name:service.getAllBooks()){
+                        System.out.println(name);
+                    }
+                    break;
+
+                case 10:
                     System.out.println("Exiting Program");
                     return;
+
                 default:
                     System.out.println("Invalid Choice");
             }

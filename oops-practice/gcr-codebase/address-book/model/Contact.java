@@ -1,4 +1,6 @@
 package model;
+import java.util.Objects;
+// Use Case 1: Contact Entity
 public class Contact {
     private String firstName;
     private String lastName;
@@ -18,30 +20,61 @@ public class Contact {
         this.phone=phone;
         this.email=email;
     }
+
     public String getFirstName(){
         return firstName;
     }
+
     public String getLastName(){
         return lastName;
     }
+
+    public String getCity(){
+        return city;
+    }
+
+    public String getState(){
+        return state;
+    }
+
     public void setAddress(String address){
         this.address=address;
     }
+
     public void setCity(String city){
         this.city=city;
     }
+
     public void setState(String state){
         this.state=state;
     }
+
     public void setZip(String zip){
         this.zip=zip;
     }
+
     public void setPhone(String phone){
         this.phone=phone;
     }
+
     public void setEmail(String email){
         this.email=email;
     }
+
+    // Use Case 7: Duplicate Check using Name
+    @Override
+    public boolean equals(Object obj){
+        if(this==obj)return true;
+        if(obj==null||getClass()!=obj.getClass())return false;
+        Contact contact=(Contact)obj;
+        return firstName.equalsIgnoreCase(contact.firstName)&&lastName.equalsIgnoreCase(contact.lastName);
+    }
+
+    @Override
+    public int hashCode(){
+        return Objects.hash(firstName.toLowerCase(),lastName.toLowerCase());
+    }
+
     @Override
     public String toString(){
         return "Name:"+firstName+" "+lastName+", Address:"+address+", City:"+city+", State:"+state+", Zip:"+zip+", Phone:"+phone+", Email:"+email;
