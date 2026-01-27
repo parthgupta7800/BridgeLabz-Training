@@ -598,3 +598,38 @@ BridgeLabz-Training
 - Creating custom exceptions  
 - Extending `Exception` class  
 - Defining constructors for exceptions  
+
+📂 Folder:collections-practice/gcr-codebase/exceptions
+
+---
+
+### ✅ 26 January  
+*Studied Java I/O Streams and Best Practices*  
+- Learned different types of streams and their usage for efficient input/output operations  
+
+*Topics Covered:*  
+- Java I/O Streams  
+- File Streams  
+- Object Streams  
+- ByteArray Streams  
+- Buffered Streams  
+- Reader and Writer  
+- Key considerations and best practices
+  
+📂 Folder:collections-practice/gcr-codebase/streams
+
+---
+
+### ✅ 27 January  
+*Studied Java Regex and JUnit Testing Concepts*  
+- Learned pattern matching using regular expressions and basics of unit testing in Java  
+
+*Topics Covered:*  
+- Regex basics (metacharacters and quantifiers)  
+- Common patterns (email, password, phone number)  
+- Java Regex API (`Pattern`, `Matcher`)  
+- `find()`, `matches()`, `replaceAll()` methods  
+- Introduction to JUnit framework  
+- JUnit annotations  
+- Writing test cases and assertions  
+- Test class structure  
