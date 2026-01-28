@@ -96,6 +96,14 @@ BridgeLabz-Training
   
 ---
 
+### 📌 Collections – Scenario-Based Problems
+- Lexical Twist
+- Flip key logic problem
+- Restaurant table booking system
+- File Backup Scheduler
+
+---
+
 
 
 ## 📅 Daily Progress Overview
@@ -633,3 +641,19 @@ BridgeLabz-Training
 - JUnit annotations  
 - Writing test cases and assertions  
 - Test class structure  
+
+---
+
+### ✅ 28 January  
+*Reviewed Java Coding Standards and String-Based Problem Solving*  
+- Focused on writing clean, readable, and maintainable Java code  
+
+*Topics Covered:*  
+- Java coding conventions and industry standards  
+- Logging, performance, and security guidelines  
+
+*Scenario-Based Problems:*  
+- Lexical Twist  
+- Flip Key Logic (ASCII String Processing)  
+
+📂 Folder:collections-practice/scenario-based
