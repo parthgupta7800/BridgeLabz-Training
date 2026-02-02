@@ -33,7 +33,15 @@ BridgeLabz-Training
 │   │
 │   └── leet-code-codebase
 │
+├── io-practice
+│   ├── gcr-codebase
+│   │
+│   ├── scenario-based
+│   │
+│   └── leet-code-codebase
+│
 └── reviews
+
 
 ```
 
@@ -702,4 +710,4 @@ BridgeLabz-Training
 - CSV ↔ JSON conversion  
 - Encrypting and decrypting sensitive fields  
 
-📂 Folder:collections-practice/gcr-codebase/csv
+📂 Folder:io-programming/gcr-codebase/csv
