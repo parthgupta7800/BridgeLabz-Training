@@ -5,7 +5,6 @@
         "collections-practice\\gcr-codebase\\junit\\test"
     ],
     "java.project.referencedLibraries": [
-        "c:\\Users\\LENOVO\\Downloads\\json-20251224.jar",
         "c:\\Users\\LENOVO\\Downloads\\junit-platform-console-standalone-1.10.0.jar"
     ],
     "java.debug.settings.onBuildFailureProceed": true,
