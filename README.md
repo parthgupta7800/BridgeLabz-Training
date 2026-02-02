@@ -672,6 +672,8 @@ BridgeLabz-Training
 - Custom validation for Transport ID  
 - Tax and discount-based billing logic  
 
+📂 Folder:oops-practice/scenario-based/FutureLogistics
+
 ---
 
 ### ✅ 30 January  
