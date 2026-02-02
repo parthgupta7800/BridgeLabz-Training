@@ -697,8 +697,9 @@ BridgeLabz-Training
 ---
 
 ### ✅ 2 February  
-*Practiced CSV Data Handling in Java*  
+*Practiced CSV Data Handling, Annotations, and Reflection in Java*  
 - Worked on reading, writing, validating, and transforming CSV data using Java  
+- Learned how annotations and reflection help in building flexible and extensible applications  
 
 *Tasks Covered:*  
 - Reading, writing, and counting CSV records  
@@ -709,5 +710,11 @@ BridgeLabz-Training
 - Detecting duplicates  
 - CSV ↔ JSON conversion  
 - Encrypting and decrypting sensitive fields  
+- Introduction to annotations (built-in and custom)  
+- Advanced custom annotations and real-world use cases  
+- Annotation processing tools  
+- Reflection concepts and usage  
+- Annotations with reflection  
 
-📂 Folder:io-programming/gcr-codebase/csv
+📂 Folder: io-programming/gcr-codebase/csv
+📂 Folder: collections-practice/gcr-codebase/annotations-reflection
