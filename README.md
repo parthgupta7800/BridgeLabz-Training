@@ -109,6 +109,7 @@ BridgeLabz-Training
 - Flip key logic problem
 - Restaurant table booking system
 - File Backup Scheduler
+- StreamBuzz a digital content platform that tracks creators' engagement over a period of 4 weeks.
 
 ---
 
