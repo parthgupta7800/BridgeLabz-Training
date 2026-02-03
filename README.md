@@ -101,6 +101,7 @@ BridgeLabz-Training
 - CinemaTime – Movie Schedule Manager 
 - EduResults – Rank Sheet Generator
 - SmartCheckout – Supermarket Billing Queue
+- Factory Robot Hazard Analyzer
   
 ---
 
