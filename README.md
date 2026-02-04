@@ -720,3 +720,23 @@ BridgeLabz-Training
 
 📂 Folder: io-programming/gcr-codebase/csv
 📂 Folder: collections-practice/gcr-codebase/annotations-reflection
+
+---
+
+### ✅ 3 February  
+*Studied JSON Handling and Java Stream Operations*  
+- Learned how to work with JSON data and process collections using Java Streams  
+
+*Topics Covered:*  
+- Introduction to JSON (reading, writing, parsing, schema validation)  
+- Stream intermediate operations (`filter`, `map`, `flatMap`, `distinct`, `sorted`, `peek`, `limit`, `skip`)  
+- Terminal operations (`collect`, `forEach`, `reduce`, `count`, `anyMatch`, `allMatch`, `noneMatch`)  
+- Stateless vs stateful operations  
+- Ordered vs unordered streams  
+- Parallel streams  
+- `forEach()` in Iterable vs Stream  
+
+📂 Folder:io-programming-practice/gcr-codebase/json-data
+📂 Folder:collections-practice/gcr-codebase/streams
+
+---
