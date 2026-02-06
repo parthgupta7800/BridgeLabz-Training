@@ -740,3 +740,29 @@ BridgeLabz-Training
 📂 Folder:collections-practice/gcr-codebase/streams
 
 ---
+
+### ✅ 4 February  
+*Developed StreamBuzz Creator Engagement Console Application*  
+- Built a console-based system to register creators, track weekly likes, and analyze engagement statistics  
+
+*Features Implemented:*  
+- Creator registration with weekly like tracking  
+- Threshold-based top post count calculation  
+- Overall average weekly likes computation  
+- Menu-driven interaction for engagement analysis  
+
+📂 Folder:collections-practice/scenario-based/StreamBuzz.java
+
+---
+
+### ✅ 5 February  
+*Developed Factory Robot Hazard Analyzer System*  
+- Built an application to evaluate robot hazard risk using validated inputs and custom exception handling  
+
+*Concepts Covered:*  
+- Input validation and custom exception (`RobotSafetyException`)  
+- Risk score calculation based on precision, worker density, and machinery state  
+- Exception handling using `try-catch`  
+- Case-sensitive state validation and formula-based computation  
+
+📂 Folder:dsa-practice/scenario-based/FactoryRobot.java
