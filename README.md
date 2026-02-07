@@ -766,3 +766,16 @@ BridgeLabz-Training
 - Case-sensitive state validation and formula-based computation  
 
 📂 Folder:dsa-practice/scenario-based/FactoryRobot.java
+
+---
+
+### ✅ 6 February  
+*Studied Java Collectors and Stream Data Aggregation*  
+- Learned how Collectors work with `Stream.collect()` to transform, group, and summarize data  
+
+*Topics Covered:*  
+- Roles of Collectors (transforming, aggregating, grouping, partitioning)  
+- Converting streams to collections (`toList`, `toSet`, `toMap`)  
+- Joining strings using `joining()`  
+- Grouping and partitioning data (`groupingBy`, `partitioningBy`)  
+- Generating statistics using `summarizingInt()`  
