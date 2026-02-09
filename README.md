@@ -792,7 +792,7 @@ BridgeLabz-Training
 - Thread lifecycle, states, and thread operations/methods
 - Comparison of Thread class vs Runnable interface
 - Practice problems on multithreading implementation
-📂 Folder:multi-threading-practice/gcr-codebase
+📂 Folder:multi-threading-practice/gcr-codebase<br>
 📂 Folder:collections-practice/scenario-based/OceanFleet
 
 ---
@@ -807,5 +807,5 @@ BridgeLabz-Training
 - SonarQube integration for static code analysis and quality reporting
 - Project execution screenshots and analysis report generation
 
-📂 Folder:collections-practice/gcr-codebase/sonar-qube
+📂 Folder:collections-practice/gcr-codebase/sonar-qube<br>
 📂 Folder:jdbc-dbms-practice/gcr-codebase/patient-management
