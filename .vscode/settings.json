@@ -1,0 +1,11 @@
+{
+    "java.project.sourcePaths": [
+        ".",
+        "jdbc-dbms-practice\\gcr-codebase",
+        "jdbc-dbms-practice\\gcr-codebase\\patient-management",
+        "jdbc-dbms-practice\\gcr-codebase\\doctor-management"
+    ],
+    "java.project.referencedLibraries": [
+        "e:\\mysql-connector-j-9.6.0\\mysql-connector-j-9.6.0\\mysql-connector-j-9.6.0.jar"
+    ]
+}
