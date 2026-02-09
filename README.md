@@ -798,7 +798,7 @@ BridgeLabz-Training
 
 ---
 
-### ✅ 8 February
+### ✅ 9 February
 *Health Clinic JDBC Application & SonarQube Integration*
 - Developed a console-based Health Clinic Management system using JDBC (MySQL) and integrated the project with SonarQube for code quality analysis.
 
