@@ -792,6 +792,7 @@ BridgeLabz-Training
 - Thread lifecycle, states, and thread operations/methods
 - Comparison of Thread class vs Runnable interface
 - Practice problems on multithreading implementation
+
 📂 Folder:multi-threading-practice/gcr-codebase<br>
 📂 Folder:collections-practice/scenario-based/OceanFleet
 
