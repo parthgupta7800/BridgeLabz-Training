@@ -779,3 +779,33 @@ BridgeLabz-Training
 - Joining strings using `joining()`  
 - Grouping and partitioning data (`groupingBy`, `partitioningBy`)  
 - Generating statistics using `summarizingInt()`  
+
+---
+
+### ✅ 7 February
+*OceanFleet Collection Scenario & Java Multithreading Concepts*
+- Implemented a collection-based OceanFleet vessel performance management scenario and studied Java multithreading fundamentals with practical examples.
+
+*Topics Covered:*
+- Collection-based data storage, retrieval, and vessel performance processing
+- Creating threads using Thread class and Runnable interface
+- Thread lifecycle, states, and thread operations/methods
+- Comparison of Thread class vs Runnable interface
+- Practice problems on multithreading implementation
+📂 Folder:multi-threading-practice/gcr-codebase
+📂 Folder:collections-practice/scenario-based/OceanFleet
+
+---
+
+### ✅ 8 February
+*Health Clinic JDBC Application & SonarQube Integration*
+- Developed a console-based Health Clinic Management system using JDBC (MySQL) and integrated the project with SonarQube for code quality analysis.
+
+*Topics Covered:*
+- Patient registration, doctor management, appointment scheduling, visit history, and billing modules
+- Data persistence using JDBC with MySQL database
+- SonarQube integration for static code analysis and quality reporting
+- Project execution screenshots and analysis report generation
+
+📂 Folder:collections-practice/gcr-codebase/sonar-qube
+📂 Folder:jdbc-dbms-practice/gcr-codebase/patient-management
