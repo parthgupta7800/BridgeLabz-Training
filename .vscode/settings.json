@@ -3,7 +3,10 @@
         ".",
         "collections-practice\\gcr-codebase\\junit\\main",
         "collections-practice\\gcr-codebase\\junit\\test",
-        "collections-practice\\scenario-based\\OceanFleet"
+        "collections-practice\\scenario-based\\OceanFleet",
+        "collections-practice\\scenario-based\\test-case",
+        "collections-practice\\scenario-based\\test-case\\main",
+        "collections-practice\\scenario-based\\test-case\\test"
     ],
     "java.project.referencedLibraries": [
         "c:\\Users\\LENOVO\\Downloads\\junit-platform-console-standalone-1.10.0.jar"
