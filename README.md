@@ -810,3 +810,27 @@ BridgeLabz-Training
 
 📂 Folder:collections-practice/gcr-codebase/sonar-qube<br>
 📂 Folder:jdbc-dbms-practice/gcr-codebase/patient-management
+
+---
+
+### ✅ 10 February
+*Participated in M1 Mock Examination*
+- Attempted the mock examination to evaluate preparation level and identify areas for improvement before the final M1 exam.
+
+*Topics Covered:*
+- Practice of exam-oriented problem solving
+- Time management during mock test
+- Review of key technical and conceptual topics
+- Identification of weak areas for further preparation
+
+---
+
+### ✅ 11 February
+*Revision for M1 Examination Preparation*
+- Revised core technical concepts and practiced important problems to strengthen exam readiness.
+
+*Topics Covered:*
+- Review of key Java and programming fundamentals
+- Practice of important coding and conceptual questions
+- Concept reinforcement through quick notes and examples
+- Focus on improving accuracy and speed for the exam
