@@ -834,3 +834,17 @@ BridgeLabz-Training
 - Practice of important coding and conceptual questions
 - Concept reinforcement through quick notes and examples
 - Focus on improving accuracy and speed for the exam
+
+---
+
+### ✅ 12 February
+*Parking Slot Allocation & Courier Shift Scheduler Systems*
+- Designed collection-based OOP applications to manage smart parking allocation and courier staff shift scheduling with proper exception handling.
+
+*Topics Covered:*
+- Smart parking slot allocation using Map, Queue, and OOP classes (Vehicle, Car, Bike, ParkingSlot)
+- Handling waiting vehicles and nearest slot assignment logic
+- Courier staff shift scheduling using List and Map with duplicate assignment prevention
+- Custom exception handling (`NoParkingSlotAvailableException`, `ShiftAlreadyAssignedException`)
+
+📂 Folder: collections-practice/scenario-based
