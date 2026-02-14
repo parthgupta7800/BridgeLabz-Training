@@ -111,6 +111,12 @@ BridgeLabz-Training
 - Restaurant table booking system
 - File Backup Scheduler
 - StreamBuzz a digital content platform that tracks creators' engagement over a period of 4 weeks.
+- Online Auction Bidding System
+- Smart Energy Consumption Monitor
+- Job Portal Resume Shortlisting System
+- Event Feedback & Rating Analyzer
+- Smart Parking Slot Allocation System
+- Courier Staff Shift Scheduler
 
 ---
 
@@ -848,3 +854,18 @@ BridgeLabz-Training
 - Custom exception handling (`NoParkingSlotAvailableException`, `ShiftAlreadyAssignedException`)
 
 📂 Folder: collections-practice/scenario-based
+
+---
+
+### ✅ 13 February
+*Online Course Enrollment Manager – Java 8 Mini Project*
+- Developed a Java 8 based enrollment management system implementing functional programming concepts using Streams, Lambda Expressions, and Collectors.
+
+*Topics Covered:*
+- Managing enrollment records (student, course, category, enrollment date)
+- Filtering enrollments by course and category using Streams
+- Grouping enrollments by course name and counting enrollments per category
+- Sorting enrollments by date using Comparator
+- Usage of Lambda expressions, Method references, and Collectors (`groupingBy`, `counting`) 
+
+📂 Folder: java8-programming-practice/gcr-codebase/mini-project
