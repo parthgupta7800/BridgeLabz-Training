@@ -88,4 +88,32 @@ public class AddressBookDAO {
     public Set<String> getAllBooks(){
         return addressBooks.keySet();
     }
+
+    // UC11: Sort by Name
+    public List<Contact> sortByName(String bookName){
+        List<Contact> list=new ArrayList<>(addressBooks.get(bookName));
+        Collections.sort(list,(a,b)->a.getFirstName().compareToIgnoreCase(b.getFirstName()));
+        return list;
+    }
+
+    // UC12: Sort by City
+    public List<Contact> sortByCity(String bookName){
+        List<Contact> list=new ArrayList<>(addressBooks.get(bookName));
+        Collections.sort(list,(a,b)->a.getCity().compareToIgnoreCase(b.getCity()));
+        return list;
+    }
+
+    // UC12: Sort by State
+    public List<Contact> sortByState(String bookName){
+        List<Contact> list=new ArrayList<>(addressBooks.get(bookName));
+        Collections.sort(list,(a,b)->a.getState().compareToIgnoreCase(b.getState()));
+        return list;
+    }
+
+    // UC12: Sort by Zip
+    public List<Contact> sortByZip(String bookName){
+        List<Contact> list=new ArrayList<>(addressBooks.get(bookName));
+        Collections.sort(list,(a,b)->a.getZip().compareToIgnoreCase(b.getZip()));
+        return list;
+    }   
 }

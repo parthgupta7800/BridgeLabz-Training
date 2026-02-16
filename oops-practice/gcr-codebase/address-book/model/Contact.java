@@ -29,6 +29,10 @@ public class Contact {
         return lastName;
     }
 
+    public String getZip(){
+        return zip;
+    }
+
     public String getCity(){
         return city;
     }
@@ -36,6 +40,7 @@ public class Contact {
     public String getState(){
         return state;
     }
+
 
     public void setAddress(String address){
         this.address=address;
