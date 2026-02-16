@@ -1,6 +1,10 @@
 {
     "java.project.sourcePaths": [
-        "java8-programming-practice\\gcr-codebase\\mini-project"
+        "java8-programming-practice\\gcr-codebase\\mini-project",
+        "java8-programming-practice\\scenario-based\\employee-wage-computation\\service-layer",
+        "java8-programming-practice\\scenario-based\\employee-wage-computation\\presentation-layer",
+        "java8-programming-practice\\scenario-based\\employee-wage-computation\\model-layer",
+        "java8-programming-practice\\scenario-based\\employee-wage-computation\\dao-layer"
     ],
     "java.project.referencedLibraries": []
 }
