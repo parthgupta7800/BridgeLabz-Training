@@ -117,6 +117,10 @@ BridgeLabz-Training
 - Event Feedback & Rating Analyzer
 - Smart Parking Slot Allocation System
 - Courier Staff Shift Scheduler
+- Disaster Relief Resource Allocation System
+- Smart Water Tank Monitoring System
+- Online Hackathon Submission Evaluator
+- EV Charging Station Management System
 
 ---
 
@@ -869,3 +873,32 @@ BridgeLabz-Training
 - Usage of Lambda expressions, Method references, and Collectors (`groupingBy`, `counting`) 
 
 📂 Folder: java8-programming-practice/gcr-codebase/mini-project
+
+---
+
+### ✅ 14 February
+*Disaster Relief Allocation & Smart Water Tank Monitoring Systems*
+- Designed collection-based OOP applications to manage disaster relief resource allocation and smart water tank level monitoring with exception handling.
+
+*Topics Covered:*
+- Resource allocation using Map, Queue, FIFO logic, and allocation reporting
+- Handling insufficient stock using `InsufficientResourceException`
+- Water tank monitoring using List, level percentage calculation, and threshold alerts
+- Sorting tanks by lowest water level using Comparator
+- Exception handling for invalid water levels (`InvalidWaterLevelException`)
+
+📂 Folder: collections-practice/scenario-based
+
+### ✅ 16 February
+*Employee Wage & Address Book problem using Four-Tier Architecture*
+- Implemented Employee Wage computation and Address Book applications using four-tier architecture with validation, testing, and structured layering.
+
+*Topics Covered:*
+- Four-tier architecture implementation (Presentation, Service, DAO, Repository/Model)
+- Employee Wage functionality development and enhancements
+- Address Book management with CRUD operations and Regex-based validations
+- JUnit testing for application modules and functionality verification
+- Clean modular code organization with layered design principles
+
+📂 Folder: java8-programming-practice/scenario-based/employee-wage-computation
+📂 Folder: oops-practice/gcr-codebase/address-book
