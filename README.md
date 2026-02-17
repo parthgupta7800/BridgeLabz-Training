@@ -121,6 +121,8 @@ BridgeLabz-Training
 - Smart Water Tank Monitoring System
 - Online Hackathon Submission Evaluator
 - EV Charging Station Management System
+- Online Doctor Consultation Scheduler
+- Warehouse Cold Storage Temperature Monitor
 
 ---
 
