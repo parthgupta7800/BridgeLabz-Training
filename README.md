@@ -904,3 +904,18 @@ BridgeLabz-Training
 
 📂 Folder: java8-programming-practice/scenario-based/employee-wage-computation
 📂 Folder: oops-practice/gcr-codebase/address-book
+
+---
+
+### ✅ 17 February
+*QuantityMeasurementApp Setup & Introduction*
+- Initialized project repository and prepared development workflow along with understanding the basics of the Quantity Measurement application.
+
+*Topics Covered:*
+- Repository creation: `QuantityMeasurementApp`
+- Branch setup with `main` and empty `dev` branches
+- Feature branch workflow from `dev`
+- Introduction to Quantity Measurement App structure and objectives
+- Project environment and prerequisite setup
+
+---
