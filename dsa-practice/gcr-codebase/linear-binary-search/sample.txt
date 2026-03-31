@@ -1,3 +1,0 @@
-Welcome to the FileReader practice file.
-This program demonstrates how to read a file line by line.
-Parth Gupta
