@@ -1,6 +1,3 @@
 {
-    "java.project.sourcePaths": [
-        "multi-threading-practice"
-    ],
-    "java.project.referencedLibraries": []
+    "java.debug.settings.onBuildFailureProceed": true
 }
